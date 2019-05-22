@@ -1,0 +1,16 @@
+from Kapitel_8 import *
+
+line(False)
+header('EXEMPEL')
+line(False)
+echo('Detta är ett exempel på hur')
+echo('ett gränssnitt kan se ut')
+line(False)
+header('..vad vill du göra?')
+line(False)
+echo('A | Visa inköpslista')
+echo('B | Lägg till vara')
+echo('C | Ta bort vara  ')
+echo('X | Stäng Programet')
+line(False)
+prompt('Val')
